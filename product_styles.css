@@ -1,0 +1,203 @@
+header {
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+.header_title {
+    float: left;
+    font-size: 22;
+    font-family: cursive;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.right-button-margin {
+    margin: 0 0 1em 0;
+    overflow: hidden;
+}
+
+.buttons {
+    font-family: georgia;
+    font-weight: bold;
+    font-size: 22;
+    width: 15%;
+    height: 5%;
+    float: right;
+    text-align: center;
+
+}
+
+.left_button,
+.right_button {
+    font-weight: bold;
+    text-align: center;
+}
+
+#delete-product-btn {
+    margin-left: 15px;
+}
+
+#adding_product{
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#save-submit{
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-right: 22px;
+    font-weight: bold;
+}
+
+
+#product_form {
+    padding-left: 30%;
+    max-width: 33%;
+
+}
+
+.furniture_form,
+.dvd_form,
+.book_form {
+    margin-top: 5px;
+    max-width: 100%;
+}
+
+#sku,
+#name,
+#price,
+#height,
+#width,
+#length,
+#size,
+#weight{
+    font-family: sans-serif;
+    font-size: 14;
+}
+
+.description {
+    font-size: 14;
+    font-family: serif;
+    width: 100%;
+    text-align: center;
+}
+
+.line {
+    margin: 10px;
+
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.error {
+    color: #8B0000;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.title {
+    margin: 2px 2px;
+    flex-basis: 120px;
+    cursor: pointer;
+    font-family: georgia;
+    font-size: 12;
+}
+
+.inp {
+    flex-grow: 1;
+    flex-basis: 150px;
+    padding: 2px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.btn-reset {
+    margin-top: 3px;
+    margin-left: 33%;
+    padding: 2%;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    font-family: georgia;
+    font-weight: bold;
+    font-size: 22;
+}
+
+
+.btn-app-loading {
+    background: #ccc;
+    cursor: default;
+}
+
+.container {
+    max-width: 100%;
+    padding: 3%;
+
+}
+
+.item{
+    height: 120px;
+    padding: 2px;
+	max-width: 250px;
+	margin: 5px 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+	border: 1px solid;
+	font-family: georgia;
+	background-color: #cccccc;
+}
+
+
+.prod_SKU, .prod_name, .prod_price, .row{
+    margin: 1px;
+	max-width: 230px;
+
+}
+
+.prod_SKU, .prod_name, .prod_price{
+	width: 230px;
+	font-size: 12;
+	padding: 2px;
+}
+
+.row{
+	font-size: 10;
+	padding: 2px;
+}
+
+.col-xs-5.dt{
+	float:left;
+	padding-left: 12%;
+}
+
+.col-xs-7.dd{
+	float:right;
+	padding-right: 12%;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+}
+
+.footer {
+    text-align: center;
+    font-size: 22;
+    font-family: cursive;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20%;
+    padding-right: 20%;
+}	
