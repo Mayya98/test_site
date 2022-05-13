@@ -34,7 +34,7 @@ if ($_POST) {
 	$product->SKU = $_POST['SKU'];
 	$product->Name = $_POST['name'];
 	$product->Price = $_POST['price'];
-    $product->Type = $_POST['make_text'];
+        $product->Type = $_POST['make_text'];
 	$product->Size = $_POST['size'];
 	$product->Weight = $_POST['weight'];
 	$product->Dimension = $_POST['height'] . 'x' . $_POST['width'] . 'x' . $_POST['length'];
@@ -125,12 +125,11 @@ if ($query3 = $db->query("SELECT SKU, Name, Price, Weight FROM products WHERE We
 <script>
 
 $('#delete-product-btn').click(function() {
-if (!$(".delete-checkbox").is(":checked")) {
-    alert("Choose items");
-}
-else{
-$('.item:has(input[class=delete-checkbox]:checked)').remove();
-}
+	if(!$(".delete-checkbox").is(":checked")) {
+		alert("Choose items");
+	} else {
+		$('.item:has(input[class=delete-checkbox]:checked)').remove();
+	}
 });
 </script>
 
